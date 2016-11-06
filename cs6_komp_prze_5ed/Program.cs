@@ -1,15 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace cs6_komp_prze_5ed
 {
-    class Program
+    class CommentSamples
     {
-        static void Main(string[] args)
+        private static void Main()
         {
+            Console.WriteLine("Hej, ty!");
+
+            Console.Write("Wprowadż imię: ");
+            var firstName = Console.ReadLine();
+            Console.Write("Wprowadż nazwisko: ");
+            var lastName = Console.ReadLine();
+
+            Console.WriteLine("Twoje imię i nazwisko to {0} {1}.", firstName, lastName);
         }
     }
 }
